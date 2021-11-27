@@ -1,0 +1,430 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+#carouselExampleCaptions{
+  height: 90%;
+  margin-bottom:5%;
+}
+
+
+.text-uppercase{
+  font-family: 'Permanent Marker', cursive;
+  font-size:larger;
+  margin-left:5%;
+}
+.color3{
+    color:#FF4C29;
+    background-color: #000000;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    margin-left:20%;
+    margin-right:10%;
+    position: relative;
+    bottom:359px;
+    right:50%;
+}
+.carousel-item{
+    margin-bottom:6%;
+    height:100%;
+    padding-bottom: 18%;
+
+}
+.hr5{
+    border:6px dotted black;
+    margin-left:45%;
+    background-color: white;
+    padding-bottom: 2px;
+    border-bottom:none;
+    width:10%;
+}
+.start{
+    background-color:#0F2C67;
+    text-align: center;
+    padding-top:1%;
+    padding-bottom:3%;
+    padding-left: 3%;
+    margin-top:5%;
+    margin-bottom:5%;
+    color:white;
+    border-left: 6px solid  #F8485E;
+}
+.about{
+    
+    
+    margin:2% 3% 0% 1%;
+    padding-top:0%;
+    padding-bottom: 3%;
+    padding-left:3%;
+    
+    color:white;
+}
+.start1{
+  
+    padding-top:5%;
+    margin-top:7%;
+    margin-bottom:2%;
+        background-image: url("https://images.pexels.com/photos/220365/pexels-photo-220365.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"); /* The image used - important! */
+        background-size: cover;
+        position: relative; /* Needed to position the cutout text in the middle of the image */
+        height: 350px; /* Some height */
+      
+}
+
+
+
+.qut {
+  
+    color: #F90716;
+    font-size: 2vw; /* Responsive font size */
+    font-weight: bold;
+    margin: 0 auto; /* Center the text container */
+    padding: 10px;
+    width: 50%;
+    text-align: left; /* Center text */
+    position: absolute; /* Position text */
+    top: 75%; /* Position text in the middle */
+    left: 25%; /* Position text in the middle */
+    transform: translate(-50%, -50%); /* Position text in the middle */
+    mix-blend-mode:hard-light; /* This makes the cutout text possible */
+  }
+  .font2{
+    font-family: 'Kaushan Script', cursive;
+    color:red;
+    text-align: center;
+    
+  }
+.container0{
+    position:relative;
+    left:50%;
+    display: inline-block;
+    margin-top: 0%;
+    padding-bottom: 0%;
+    margin-top:-5%;
+    margin-bottom:-8%;
+
+    
+
+}
+.container1{
+    position: relative;
+    bottom:80%;
+    margin-right:40%;
+    display:inline-block;
+    margin-top:5%;
+    border:3px solid whitesmoke;
+    color:white;
+    background:#81c644;
+      
+      
+
+    
+}
+.container2{
+    position:relative;
+    bottom:70%;
+    margin-bottom:-50%;
+    margin-right:40%;
+    display: inline-block;
+    background:#81c644;
+    border:3px solid whitesmoke;
+    color:white;
+}
+.img5{
+    position:relative;
+    width: 80%;
+    bottom: 20%;
+    height: 90%;
+    size:35%;
+    margin-top: 20%;
+    background-color: black;
+}
+
+.in1{
+  text-align: center;
+  padding-right: 2%;
+  color:white;
+  
+    
+
+}
+.container3{
+    
+    position: relative;
+    top:40%;
+    margin-top:5%;
+    margin-bottom:5%;
+    padding-left:1%;
+    background:#0F2C67;
+    color:rgb(7, 0, 0);
+    
+
+    }
+    
+    
+
+.img3{
+  position:absolute;
+  text-align: left;
+  width:20%;
+  height:20%;
+  right:30%;
+
+
+     
+}
+
+  
+  /* Clear floats after image containers */
+  .imginfo::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .navbar{
+  background-color: #81c644;
+  margin-bottom:1%;
+  }
+.navbar-nav{
+    padding-left:50%;
+    margin-left:600px;
+    
+}
+.btn{
+    margin-left:50px;
+}
+.logo{
+    width:46px;
+    height: 46px;
+    padding-left:10%;
+}
+
+
+
+/*............................*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #81c644;
+  
+}
+
+.wrapper h2{
+  font-family: 'Allura', cursive;
+  font-size: 40px;
+  margin-bottom: 70px;
+  text-align: center;
+  color:#F90716;
+  
+}
+
+.team{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.team .team_member{
+  background-color: white;
+  margin: 5px;
+  margin-bottom: 50px;
+  width: 300px;
+  padding: 20px;
+  line-height: 20px;
+  color: #8e8b8b;  
+  position: relative;
+}
+
+.team .team_member h3{
+  color: #81c644;
+  font-size: 26px;
+  margin-top: 50px;
+}
+
+.team .team_member p.role{
+  color: #ccc;
+  margin: 12px 0;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.team .team_member .team_img{
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.team .team_member .team_img img{
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+}
+/*.............footer...............*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+  text-decoration: none;
+}
+footer{
+  width: 100%;
+  margin-top:40px;
+  position:relative;
+  bottom: 0;
+  left: 0;
+  background: #3DB2FF;
+}
+footer .content{
+  max-width: 1350px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+footer .content p,a{
+  color: #fff;
+}
+footer .content .box{
+  width: 33%;
+  transition: all 0.4s ease;
+}
+footer .content .topic{
+  font-size: 22px;
+  font-weight: 600;
+  color: black;
+  margin-bottom: 16px;
+
+}
+footer .content p{
+  text-align: justify;
+}
+footer .content .lower .topic{
+  margin: 24px 0 5px 0;
+}
+footer .content .lower i{
+  padding-right: 16px;
+}
+footer .content .middle{
+  padding-left: 80px;
+}
+footer .content .middle a{
+  line-height: 32px;
+}
+footer .content .right input[type="text"]{
+  height: 45px;
+  width: 100%;
+  outline: none;
+  color: #d9d9d9;
+  background: #000;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 17px;
+  border: 2px solid #222222;
+}
+footer .content .right input[type="submit"]{
+  height: 42px;
+  width: 100%;
+  font-size: 18px;
+  color: #C2FFF9;
+  background: #81c644;
+  outline: none;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-top: 12px;
+  border: 2px solid #eb2f06;
+  transition: all 0.3s ease-in-out;
+}
+.content .right input[type="submit"]:hover{
+  background: none;
+  color:  #C2FFF9;
+}
+footer .content .media-icons a{
+  font-size: 16px;
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+  text-align: center;
+  line-height: 43px;
+  border-radius: 5px;
+  border: 2px solid #222222;
+  margin: 30px 5px 0 0;
+  transition: all 0.3s ease;
+}
+.content .media-icons a:hover{
+  border-color: #C2FFF9;
+}
+footer .bottom{
+  width: 100%;
+  text-align: right;
+  color: #C2FFF9;
+  padding: 0 40px 5px 0;
+}
+footer .bottom a{
+  color: #C2FFF9;
+}
+footer a{
+  transition: all 0.3s ease;
+}
+footer a:hover{
+  color: #C2FFF9;
+}
+@media (max-width:1110px) {
+  footer .content .middle{
+    padding-left: 50px;
+  }
+}
+@media (max-width:950px){
+  footer .content .box{
+    width: 50%;
+  }
+  .content .right{
+    margin-top: 40px;
+  }
+}
+@media (max-width:560px){
+  footer{
+    position: relative;
+  }
+  footer .content .box{
+    width: 100%;
+    margin-top: 30px;
+  }
+  footer .content .middle{
+    padding-left: 0;
+  }
+}
+.human{
+  color:white;
+}
+.content{
+  margin-top:5%''
+
+  
+}
+ .align{
+  text-align: center;
+  font-family: 'Kaushan Script', cursive;
+  color:red;
+
+ }
+ 
+
+ 
